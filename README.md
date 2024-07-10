@@ -1,5 +1,7 @@
 # voice-agent
 **projet LLM agent conversationnel**
+
+
 this project is a fully multinlingual agent.
 its based on the langchain framework, and use llama3 as model.
 
