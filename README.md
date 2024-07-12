@@ -13,5 +13,13 @@ all the API in this project are free to use (eleven labs include a free tier use
 
 for the speech to text part, it start by a voice recorder, that will be saved as the human.mp3, then sent to groq API for transcription, the returned text is then used a LLM prompt input, then it will generate an answer that will be sent to the eleven labs API, then return a an output mp3 that will be played automatically through playsound.
 
+evry API are stored in the .env file as :
+
+- ELEVENLABS_API_KEY
+- GROQ_API_KEY
+
+
+dependancy are available in the requirements.txt
+
 i use a separate system_prompt file.
 
